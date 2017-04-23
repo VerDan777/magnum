@@ -374,7 +374,52 @@ template {
 [hidden] {
   display: none; }
 
-.pole1 {
-  height: 300px;
-  width: 300px;
-  background-image: repeating-linear-gradient(-45deg, #c21f39 0px, #c21f39 10px, #ffffff 10px, #ffffff 20px, #255088 20px, #255088 30px, #ffffff 30px, #ffffff 40px); }
+body {
+  font-size: 16px; }
+
+.member {
+  padding: 0 15px; }
+  .member__image {
+    height: 210px;
+    width: 209px;
+    background-image: repeating-linear-gradient(-45deg, #c21f39 0px, #c21f39 10px, #ffffff 10px, #ffffff 20px, #255088 20px, #255088 30px, #ffffff 30px, #ffffff 40px); }
+  .member__bg {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 5px;
+    background-image: url("http://www.menshairstyletrends.com/wp-content/uploads/2015/01/Imperial-Barber-Fiber-Pomade-Medium-Side-Part.jpg");
+    background-position: center;
+    background-repeat: no-repeat; }
+    .member__bg:hover .member__hover {
+      display: block; }
+    .member__bg:hover {
+      background: #255088;
+      opacity: 0.9; }
+  .member__hover {
+    display: none;
+    position: relative;
+    top: 100px;
+    text-align: center; }
+    .member__hover:hover {
+      display: block; }
+  .member__action {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem; }
+
+.team__wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.button {
+  background-color: #fff;
+  border-radius: 50px;
+  color: #255088;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 700; }

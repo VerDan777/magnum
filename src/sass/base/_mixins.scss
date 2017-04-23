@@ -10,6 +10,3 @@
     background-image: repeating-linear-gradient($dir, $red 0px, $red $size, #ffffff $size, #ffffff $size * 2, $blue $size * 2, $blue $size * 3, #ffffff $size * 3, #ffffff $size * 4);
 }
 
-.pole1 {
-    @include barberPole(300px, 300px, 10px);
-}

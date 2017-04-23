@@ -1,0 +1,80 @@
+.member {
+
+                //box model
+                padding: 0 15px;
+
+    &__image {
+   
+                @include barberPole(209px, 210px, 10px);
+    
+    }
+
+    &__bg {
+                //box model
+                display: block;
+                width: 200px;
+                height: 200px;
+                //positioning
+                position: relative;
+                top:5px;
+
+                background-image: url('http://www.menshairstyletrends.com/wp-content/uploads/2015/01/Imperial-Barber-Fiber-Pomade-Medium-Side-Part.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+            
+
+                &:hover .member__hover {
+                  //box model
+                  display: block;
+                  
+                }
+                &:hover {
+                    //visual
+                    background: $blue;
+                    opacity: 0.9;
+                    
+                }
+    }
+
+    &__hover  {
+                //box model 
+                display: none;
+                //positioning
+                position: relative;
+                top: 100px;  
+                //visual
+                text-align: center;
+            
+        
+    
+                
+                &:hover  {
+                //box model
+                display: block;
+                
+            }
+
+        }
+
+    &__action  {
+        //box model
+        text-align: center;
+        //visual
+         color:#fff;
+         //typography
+        font-weight: 700;
+        font-size: 1rem;
+        
+        
+      
+        }
+        &__info {
+        
+        }
+        &__name {
+
+        }
+        &__position {
+
+        }
+}
