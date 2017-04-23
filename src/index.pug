@@ -126,18 +126,19 @@ body
 
     section.team
         .team__wrapper
-            mixin member (name, position, photoURL)
-                article.member
-                    .member__image: img(src=photoURL)
-                    .member__hover
+            mixin member (name, position)
+             article.member
+                .member__image
+                   .member__bg
+                     .member__hover
                         p.member__action Записаться к мастеру 
                         a(href="#").button Онлайн запись
-                    header.member__info
+                header.member__info
                         h3.member__name= name
                         p.member__position= position
-            +member("Олег", "Барбер", "http://www.menshairstyletrends.com/wp-content/uploads/2015/01/Imperial-Barber-Fiber-Pomade-Medium-Side-Part.jpg")
-            +member("Дмитрий", "Барбер", "http://www.menshairstyletrends.com/wp-content/uploads/2015/01/Imperial-Barber-Fiber-Pomade-Medium-Side-Part.jpg")
-            +member("Юрий", "Барбер", "http://www.menshairstyletrends.com/wp-content/uploads/2015/01/Imperial-Barber-Fiber-Pomade-Medium-Side-Part.jpg")
+            +member("Олег", "Барбер")
+            +member("Дмитрий", "Барбер")
+            +member("Юрий", "Барбер")
 
     section.contacts
         header.contacts__header

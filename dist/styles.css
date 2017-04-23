@@ -390,13 +390,11 @@ body {
     position: relative;
     top: 5px;
     background-image: url("http://www.menshairstyletrends.com/wp-content/uploads/2015/01/Imperial-Barber-Fiber-Pomade-Medium-Side-Part.jpg");
-    background-position: center;
-    background-repeat: no-repeat; }
+    background-position: center; }
     .member__bg:hover .member__hover {
       display: block; }
     .member__bg:hover {
-      background: #255088;
-      opacity: 0.9; }
+      background-image: url("https://pp.userapi.com/c638719/v638719615/30673/cOPs54ivxDM.jpg"); }
   .member__hover {
     display: none;
     position: relative;
